@@ -1,0 +1,621 @@
+/* Colors */
+/* Font Size */
+/* Page Margin */
+/* Card Box Shadow */
+body {
+  font-family: "Open Sans" ,Arial, Helvetica, sans-serif;
+  font-size: 1em; }
+
+h1, h2, h3, h4, h5, p {
+  line-height: 1.35em; }
+
+p {
+  font-size: 1em; }
+
+/*
+Header
+*/
+header {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 7vw;
+  margin-right: 7vw; }
+
+.logo a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #1D75CD; }
+
+#nav-container #mobile-menu-icon {
+  width: 100%;
+  color: #1D75CD;
+  position: relative;
+  z-index: 10; }
+#nav-container #nav-ul-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #F9F9F9; }
+  #nav-container #nav-ul-container li {
+    display: inline;
+    padding: 50px; }
+    #nav-container #nav-ul-container li a {
+      text-decoration: none;
+      color: #737373;
+      font-size: 1.5em;
+      font-weight: bold; }
+    #nav-container #nav-ul-container li a:hover {
+      color: #1D75CD;
+      font-weight: bold; }
+    #nav-container #nav-ul-container li .active {
+      color: #1D75CD;
+      font-weight: bold; }
+
+.top-container {
+  margin: 50px 0;
+  padding: 30px 0;
+  text-align: center;
+  background-color: #F9F9F9; }
+
+.top-introduction {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  text-align: left; }
+  .top-introduction .top-header {
+    color: #1D75CD;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0; }
+  .top-introduction p {
+    font-size: 1em;
+    margin-bottom: 20px; }
+  .top-introduction a {
+    padding-right: 20px; }
+  .top-introduction .link-icon {
+    color: #1D75CD; }
+
+#profile-pic {
+  width: 60%; }
+
+/*
+Footer
+*/
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 7vw;
+  background-color: #F9F9F9; }
+
+#contact-text {
+  font-weight: bold; }
+
+.contact-container {
+  margin-top: 20px; }
+  .contact-container #contact-links-container {
+    margin-top: 10px; }
+    .contact-container #contact-links-container a {
+      padding-right: 20px; }
+
+.email-link {
+  color: #1D75CD; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 1em;
+  border: none;
+  outline: none;
+  background-color: #1D75CD;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px; }
+
+#myBtn:hover {
+  background-color: #555; }
+
+/*
+Home Specific
+*/
+.middle-project-container {
+  margin: 50px auto; }
+
+.project-card-container {
+  padding: 7% 0;
+  background-color: #C3DDF6;
+  border-radius: 10px;
+  color: #000000;
+  text-align: center;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12); }
+
+.card-container {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: 40%;
+  height: 350px; }
+
+.project-pic {
+  padding: 1rem;
+  border-radius: 10px;
+  color: #000000;
+  text-align: center;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12); }
+
+.project-atlas-college {
+  background-image: url(../images/atlas/college_profile/atlas-dave-final-prototype.png); }
+
+.project-atlas-instructor {
+  background-image: url(../images/atlas/instructor_profile/atlas-instructor-profile-final.png); }
+
+.project-mo-collection {
+  background-image: url(../images/michigan_online/michigan-online-new-filter-dev.png);
+  background-color: #F6D245; }
+
+.project-ytm {
+  background-image: url(../images/your_trip_mate/your-trip-mate-cover.png);
+  background-size: contain; }
+
+.project-gamut-gp {
+  background-image: url(../images/gamut_gallery_pagination/gamut-gp-final-design-min.png); }
+
+.project-card {
+  margin-bottom: 50px; }
+  .project-card:last-child {
+    margin-bottom: 0px; }
+  .project-card:hover .project-pic {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    background-size: 110%; }
+
+.project-link {
+  text-decoration: none; }
+
+.project-desc {
+  margin-top: 25px;
+  color: #000000; }
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1D75CD; }
+
+.tag-container {
+  display: flex; }
+
+.tag-second-container {
+  margin-top: 0.5em; }
+
+.each-tag {
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px;
+  margin-right: 2%; }
+  .each-tag:last-child {
+    margin-right: 0; }
+
+.tag-text {
+  font-size: 0.65em;
+  margin: 0; }
+
+/*
+Project Specific
+*/
+.top-project {
+  padding: 40px 7vw; }
+  .top-project h1 {
+    color: #1D75CD;
+    font-weight: bold;
+    font-size: 1.5em; }
+  .top-project .each-tag .tag-text {
+    font-size: 0.65em; }
+
+.top-project-introduction {
+  text-align: left; }
+
+.top-project-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+  padding-right: 25px; }
+
+.michigan-online-logo {
+  width: 45%; }
+
+.your-trip-mate-logo {
+  width: 45%; }
+
+.top-project-cai-logo {
+  width: 45%; }
+
+.top-project-gamut-logo {
+  width: 18%; }
+
+.top-project-pic {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 70%;
+  height: 300px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12); }
+
+.top-project-atlas-college-profile {
+  background-image: url(../images/atlas/college_profile/atlas-dave-final-prototype.png); }
+
+.top-project-atlas-instructor-profile {
+  background-image: url(../images/atlas/instructor_profile/atlas-instructor-profile-final.png); }
+
+.top-project-michigan-online-collection-filter-development {
+  background-image: url(../images/michigan_online/michigan-online-new-filter-dev.png); }
+
+.top-project-your-trip-mate-mobile-app-development {
+  background-image: url(../images/your_trip_mate/your-trip-mate-cover.png);
+  background-size: contain;
+  background-position: center; }
+
+.top-project-gamut-gallery-pagination {
+  background-image: url(../images/gamut_gallery_pagination/gamut-gp-final-design-min.png); }
+
+.middle-project-content-container {
+  margin: 40px 7vw; }
+  .middle-project-content-container h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .middle-project-content-container p {
+    font-size: 1em; }
+    .middle-project-content-container p:last-child {
+      margin-bottom: 0; }
+
+.project-line-breaker {
+  width: 100%;
+  margin: 50px auto; }
+
+.project-content-detail-each {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .project-content-detail-each:first-child {
+    margin-top: 0; }
+  .project-content-detail-each:last-child {
+    margin-bottom: 0; }
+  .project-content-detail-each figure {
+    margin-top: 2em;
+    margin-bottom: 2em; }
+
+.project-content-pic-lable {
+  text-align: center; }
+
+.project-content-prototype-pic {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12);
+  border-radius: none; }
+
+.project-content-gallery-gp-old-pic {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12);
+  border-radius: none;
+  margin-bottom: 1em;
+  width: 50%; }
+
+.project-section-title {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1em; }
+
+.project-content-pic-full {
+  width: 100%;
+  margin-bottom: 1em; }
+
+.project-content-pic-medium {
+  width: 100%;
+  margin-bottom: 1em; }
+
+.project-fig-caption {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 1em; }
+
+.project-process-title {
+  text-decoration: none; }
+
+code {
+  color: crimson;
+  background-color: #F9F9F9;
+  padding: 2px; }
+
+.custom-iframe {
+  margin-top: 10px;
+  width: 100%;
+  height: 60vh; }
+
+.project-content-multiple-iframes {
+  margin-top: 1em; }
+
+/*
+Picture Overlay
+
+
+#overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+
+    text-align: center;
+    img{
+        // top: 25%;
+        // width: 70%;
+    }
+}
+
+.overlay-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.test{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+
+    text-align: center;
+    .project-content-pic-full{
+        // top: 25%;
+        width: 120%;
+    }
+}
+*/
+.project-content-overlay-close {
+  position: absolute;
+  top: 10%;
+  left: 85%;
+  width: 3vw;
+  color: #ffffff; }
+
+.project-content-overlay-full {
+  width: 100%; }
+
+.project-content-figure:hover {
+  cursor: pointer; }
+
+/*
+Atlas Instructor Profile Page Specific
+*/
+.project-takeaway-list {
+  margin-bottom: 1em; }
+  .project-takeaway-list:last-child {
+    margin-bottom: 0; }
+
+/*
+For Tablet View
+*/
+@media all and (min-width: 770px) {
+  h1, h2, h3, h4, h5, p {
+    line-height: 1.4em; }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between; }
+
+  #nav-container #mobile-menu-icon {
+    display: none; }
+  #nav-container #nav-ul-container {
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff; }
+    #nav-container #nav-ul-container li {
+      display: inline;
+      padding-right: 20px; }
+      #nav-container #nav-ul-container li a {
+        font-size: 1.2em; }
+
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #F9F9F9; }
+
+  #profile-pic {
+    justify-self: center;
+    align-self: center;
+    width: 40%; }
+
+  .top-introduction {
+    width: 40vw;
+    margin-right: 0; }
+    .top-introduction .top-header {
+      font-size: 1.5em; }
+    .top-introduction p {
+      font-size: 1.2em; }
+    .top-introduction img {
+      padding-right: 20px; }
+
+  .link-icon {
+    color: #1D75CD;
+    transition: width 0.6s, height 0.6s, transform 0.6s; }
+
+  .link-icon:hover {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg); }
+
+  #profile-pic {
+    width: 20%; }
+
+  /*
+  Footer
+  */
+  footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px 7vw; }
+
+  #contact-text {
+    font-weight: normal; }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0; }
+    .contact-container #contact-links-container {
+      margin-top: 10px; }
+      .contact-container #contact-links-container a {
+        padding-right: 20px; }
+
+  .each-tag {
+    padding: 7px; }
+
+  /*
+  Home Specific
+  */
+  .middle-project-container {
+    margin: 50px auto; }
+
+  .tag-text {
+    font-size: 0.8em; }
+
+  /*
+  Project Specific
+  */
+  .top-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding-left: 7vw;
+    padding-right: 7vw; }
+    .top-project h1 {
+      font-size: 1.5em; }
+
+  .top-project-introduction {
+    align-self: start; }
+
+  .top-project .each-tag .tag-text {
+    font-size: 0.8em; }
+
+  .top-project-pic {
+    margin: 0 auto;
+    height: 300px; }
+
+  .middle-project-content-container {
+    margin: 50px 7vw; }
+
+  .project-content {
+    display: grid;
+    grid-template-columns: 0.8fr 2fr;
+    justify-content: space-between; }
+
+  .top-project-logo {
+    margin-top: 40px;
+    width: 8em; }
+
+  .michigan-online-logo {
+    width: 190px; }
+
+  .your-trip-mate-logo {
+    width: 40%; }
+
+  .top-project-cai-logo {
+    width: 12em; }
+
+  .top-project-gamut-logo {
+    width: 75px; }
+
+  .project-content-pic-full {
+    width: 80%; }
+
+  /*
+  Your Trip Mate Mobile App Page Specific
+  */
+  .project-content-ytm-figure {
+    margin-right: 5%; }
+
+  .project-conetent-pic-ytm-inspiration {
+    width: 40vw; } }
+/*
+For Laptop/Desktop view
+*/
+@media all and (min-width: 1024px) {
+  .each-tag {
+    padding: 7px; }
+
+  /*
+  Home
+  */
+  .middle-project-container {
+    margin: 50px auto; }
+
+  .project-card:nth-child(odd) {
+    padding-right: 30px; }
+
+  .card-container {
+    height: 400px; }
+
+  /*
+  Project Specific
+  */
+  .top-project-pic {
+    height: 400px; }
+
+  .project-line-breaker {
+    margin: 60px auto; }
+
+  .project-content-detail-each-multiple-figure {
+    display: flex; }
+
+  .project-content-pic-medium {
+    width: 80%;
+    margin-bottom: 1em; }
+
+  .project-conetent-pic-ytm-inspiration {
+    width: 20vw; }
+
+  .project-content-pic-final {
+    width: 80%; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Welcome to Eungyu Park's Portfolio Website. I'm a UX designer & egineer and a User-Centered Agile Development & UX Design Master's student at the University of Michigan.">
+        <meta name="keywords" content="Eungyu, Park, Portfolio, UX Designer, UX Engineer">
+        <meta name="author" content="Eungyu Park">
+        <title>Eungyu Park Portfolio</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/style/html5reset.css">
+        <link rel="stylesheet" href="assets/style/animate.css/animate.css"/>
+        <!-- Scroll CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Bootstrap 5 CSS -->
+        <link rel="stylesheet" href="assets/style/bs5/bootstrap.css">
+        <!-- Font CSS -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- Lightbox CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/style/lightbox.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/style/style.css">
+        <!-- Favicon Link -->
+		<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BS7YYS745G"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BS7YYS745G');
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">Eungyu Park</a>
+            </div>
+            <nav id="nav-container">
+                <img src="assets/images/mobile-menu-icon.png" alt="Mobile Menu Icon" id="mobile-menu-icon"/>
+                <ul id="nav-ul-container">
+                    <li><a class="active" href="/index.html#main-work">Work</a></li>
+                    <!-- <li><a href="#">About</a></li> -->
+                    <li><a href="assets/resume/EungyuPark_Resume.pdf" target="_blank" download>Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="top-container top-project">
+                <div class="top-project-introduction">
+                    <h1>Gamut Gallery Pagination Design and Development</h1>
+                    <p>Designed & developed gallery pagination for Gamut web application</p>
+                    <div class="tag-container">
+                        <div class="each-tag"><p class="tag-text">UX Design</p></div>
+                        <div class="each-tag"><p class="tag-text">UX Research</p></div>
+                        <div class="each-tag"><p class="tag-text">Web Design</p></div>
+                        <div class="each-tag"><p class="tag-text">Prototyping</p></div>
+                    </div>
+                    <div class="tag-container tag-second-container">
+                        <div class="each-tag"><p class="tag-text">Development</p></div>
+                        <div class="each-tag"><p class="tag-text">Frontend</p></div>
+                    </div>
+                    <img src="./assets/images/gamut_gallery_pagination/gamut-logo.svg" alt="Gamut Logo" class="top-project-logo top-project-gamut-logo"/>
+                    <img src="./assets/images/cai-logo.png" alt="Center for Academic Innovation Logo" class="top-project-logo top-project-cai-logo"/>
+                </div>
+                <div class="top-project-pic top-project-gamut-gallery-pagination">
+                </div>
+            </div>
+
+            <div class="middle-project-content-container gallery">
+                <!-- Project Overview -->
+                <div class="project-content">
+                    <h2>Project Overview</h2>
+                    <div class="project-content-detail">
+                        <p><strong>Duration:</strong> July 2020 -  August 2020 </p>
+                        <p><strong>Role:</strong> UX Engineer</p>
+                        <p><strong>Employer:</strong> University of Michigan Center for Academic Innovation (CAI)</p>
+                        <p><strong>Skills:</strong> UX Design, UX Research, Web Design, Prototyping, Interaction Design, Frontend Development, Responsive Web Development, UX Design</p>
+                        <p><strong>Programming:</strong> Vue.js (JavaScript), HTML, and SCSS (CSS)</p>
+                        <p><strong>Tools:</strong> Sketch, Visual Studio (VS) Code, Bitbucket, Trello</p>
+                    </div>
+                </div>
+                <hr class="project-line-breaker"/>
+
+                <!-- Introduction -->
+                <div class="project-content">
+                    <h2>Introduction</h2>
+                    <div class="project-content-detail">
+                        <div class="project-content-detail-each">
+                            <h3 class="project-section-title">About Gamut</h3>
+                            <p>
+                                Gamut is a suite for online learning tools (a.k.a LTI (Learning Tools Interoperability) native tools) such as Gallery, Workbook, and Goal Setters. Those tools are used in MOOC (Massive Open Online Courses) like Coursera, Canvas, and edX. For instance, the Gamut Gallery tool in a Coursera course lets users share their works and provide feedback for each other.
+                            </p>
+                        </div>
+                        <div class="project-content-detail-each">
+                        <h3 class="project-section-title">Problem & Challenge</h3>
+                            <p>
+                                There were a lot of responses in the Gamut Gallery tool, like more than 5,000 submissions in a Coursera course, which was a good indication that many people were using the tool, but we should have figured out how to organize them and limited the number of responses per page or load.
+                            </p>
+                        </div>
+                        <div class="project-content-detail-each">
+                            <h3 class="project-section-title">Gamut Gallery Solution</h3>
+                            <p>
+                                Design and develop pagination to organize the massive responses and limit the number of submissions to 30 per page.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="project-line-breaker"/>
+
+                <!-- Process -->
+                <div class="project-content">
+                    <h2>Process</h2>
+                    <div class="project-content-detail">
+
+                        <div class="project-content-detail-each">
+                            <p>
+                                For this project, I followed the Software Development Life Cycle (SDLC) like below.
+                            </p>
+                            <figure class="project-content-figure">
+                                <a href="assets/images/sdlc.png" data-lightbox="gallery" data-title="Software Development Life Cycle (SDLC)" data-alt="Software Development Life Cycle (SDLC)">
+                                    <img data-aos="fade-up" data-aos-duration="1000" src="assets/images/sdlc.png" alt="Software Development Life Cycle (SDLC)" class="project-content-pic-full">
+                                </a>
+                                    <figcaption class="project-fig-caption">Software Development Life Cycle (SDLC)</figcaption>
+                            </figure>
+
+                            <h3 class="project-section-title project-process-title">1. Requirement Gathering and Analysis</h3>
+                            <p>
+                                In this process, I had a meeting with the Gamut team to discuss the current user problem due to the massive responses (more than 5,000 submissions) on the Gamut Gallery tool. Because the Gallery didn’t have a tool to organize and handle a large number of responses, the speed of the page load was slow, and it was difficult for users to organize and find a response on the Gallery.
+                            </p>
+                            <div class="project-content-multiple-iframes">
+                                <p><strong>Example of Gamut Gallery Massive Submissions</strong></p>
+                                <iframe src="https://www.youtube.com/embed/VZaM4PsM6VQ" title="Example of Gamut Gallery Massive Submissions"  class="custom-iframe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <p class="project-content-multiple-iframes">
+                                Since the number of responses kept increasing, and this was a critical user experience, we agreed to solve this in the current iteration at that time. After the meeting, I first researched to find the best way to organize many submissions. For example, I searched for the pros and cons of using infinite scrolling with a load more button and using pagination. The pros of using infinite scrolling are that users can typically check more items, which leads to more engagement, lower interaction cost due to no click required, and mobile-friendly. The cons of using infinite scrolling could be that it requires more loading time, and it is difficult to go back to a specific section to check a certain item (location), especially when scrolling down a lot. This could be solved if having a “Load More” button with a scroll bar. However, even if implementing the “Load More” button, the scroll bar needs to be updated multiple times whenever a user clicks the “Load More” button. That may make the user difficult to navigate back to a certain item (location.) On the other hand, the pros of using pagination are that it helps a user search for something specific within the list of results, decide how many pages to check, have a better sense of control because it shows the endpoint, and easy navigation (easy to go back and check a certain item.) The cons of using pagination are that it requires more actions (clicks) and may not be mobile-friendly. To reduce the number of actions, displaying enough content per page could be a solution.
+                            </p>
+
+                            <p>
+                                Below are the resources that I checked.
+                            </p>
+
+                            <ul>
+                                <li><a href="https://www.nngroup.com/articles/item-list-view-all/" target="_blank">Users' Pagination Preferences and "View All"</a> by Nielsen Norman Group</li>
+                                <li><a href="https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1" target="_blank">Infinite Scrolling v.s. Pagination </a>by UX Planet</li>
+                                <li><a href="https://www.orbitmedia.com/blog/why-we-choose-the-view-more-button-instead-of-pagination/" target="_blank">Load More Scrolling v.s. Pagination </a>by Orbit Media</li>
+                                <li><a href="https://publift.com/infinite-scroll-vs-load-more-buttons-which-is-better/" target="_blank">Infinite Scroll vs Load More Buttons: Which is Better? </a>by Publift</li>
+                                <li><a href="https://baymard.com/blog/number-of-items-loaded-by-deafult" target="_blank">How Many Items to Load? </a>by Baymard Institute</li>
+                            </ul>
+                            <p>
+                                I shared the research with the Gamut team and agreed to explore two designs: one with scrolling with the "Load More" button and the other with pagination. Also, we discussed how many items to show per load or page. We decided to show 30 items per load or page because it followed other Gamut tool pagination and enough numbers for users to check the recent responses.
+                            </p>
+                        </div>
+
+                        <div class="project-content-detail-each">
+                            <h3 class="project-section-title project-process-title">2. Design</h3>
+                            <p>
+                                Based on the research and the meeting with the Gamut team, I created two designs.
+                            </p>
+                            <div class="project-content-detail-each-multiple-figure">
+                                <figure>
+                                    <a href="assets/images/gamut_gallery_pagination/gamut-gp-initial-load-more-design-min.png" data-lightbox="gallery" data-title="Design 1: Scrolling with Load More Button" data-alt="Design 1: Scrolling with Load More Button">
+                                        <img data-aos="fade-up" data-aos-duration="1000" src="assets/images/gamut_gallery_pagination/gamut-gp-initial-load-more-design-min.png" alt="Design 1: Scrolling with Load More Button" class="project-content-pic-medium project-content-prototype-pic">
+                                    </a>
+                                        <figcaption class="project-fig-caption">Initial Design V1</figcaption>
+                                </figure>
+                                <figure>
+                                    <a href="assets/images/gamut_gallery_pagination/gamut-gp-final-design-min.png" data-lightbox="gallery" data-title="Design 2: Pagination" data-alt="Design 2: Pagination">
+                                        <img data-aos="fade-up" data-aos-duration="1000" src="assets/images/gamut_gallery_pagination/gamut-gp-final-design-min.png" alt="Design 2: Pagination" class="project-content-pic-medium project-content-prototype-pic">
+                                    </a>
+                                        <figcaption class="project-fig-caption">Design 2: Pagination</figcaption>
+                                </figure>
+                            </div>
+                            <p>
+                                I presented them with the Gamut team. We agreed to proceed with the pagination design (Design 2) because it provided easy navigation to check a specific item. Most of the Gamut Gallery users used laptops or desktop computers, so less worry about mobile-friendly scrolling as well.
+                            </p>
+                        </div>
+
+                        <div class="project-content-detail-each">
+                            <h3 class="project-section-title project-process-title">3. Implementation (Development)</h3>
+                            <p>
+                                Based on the design, I started to work on the implementation. Once I configured the local set up and created a new branch named <code>gallery-pagination</code> on Bitbucket that was branched out from the <code>develop</code> branch, I checked the current Gamut Gallery code structure. For example, Gamut Gallery used Vue.js (JavaScript), HTML, and SCSS (CSS) for the frontend and used Django for the backend. Also, I had a meeting with my supervisor, a User Experience (UX) designer and frontend developer, to learn more about the detailed code structure. For instance, Gamut Gallery had multiple SCSS directories such as 01-utilities that defined most commonly used CSS variables like colors and font size, 02-vendors which defined browser-specific CSS, 04-layout which defined page regions such as header, footer, and navigation, and 05-components which defined small UI pieces like cards and checkbox. The <code>styles.scss</code> imported all SCSS in the end. I also checked the current Vue component for the Gallery page and learned how each code worked together.
+                            </p>
+                            <p>
+                                After I understood the current code structure, I worked on the small and easy implementation like UI and then moved to complex logic. While working on the implementation, I especially focused on the consistent UI and UX that followed the current code structure and tried to write an effective JavaScript that shortened the code in the Vue component. Besides, I focused on improving web accessibility. For example, I used <code>opacity:0</code> instead of <code>display:none</code> or <code>visibility: hidden</code> for invisible content so that content could be read by a screen reader. (Reference: <a href="https://webaim.org/techniques/css/invisiblecontent/" target="_blank">CSS in Action</a> by WebAIM and <a href="https://stackoverflow.com/questions/272360/does-opacity0-have-exactly-the-same-effect-as-visibilityhidden/273076#273076" target="_blank">Does opacity:0 have exactly the same effect as visibility:hidden</a>
+                                by Stackoverflow).
+                            </p>
+                            <p>
+                                As I worked on developing the <code>gallery-pagination</code>, I frequently pushed my codes to Bitbucket and got feedback from my supervisor. I updated and refined my code based on the feedback and passed it onto a senior software developer for review.
+                            </p>
+                        </div>
+
+                        <div class="project-content-detail-each">
+                            <h3 class="project-section-title project-process-title">4. Testing & 5. Deployment</h3>
+                            <p>
+                                The senior software developer reviewed my code and deployed it. After the deployment, a  quality assurance analyst checked the updated live site for QA.
+                            </p>
+                        </div>
+
+                        <div class="project-content-detail-each">
+                            <h3 class="project-section-title project-process-title">6. Maintenance</h3>
+                            <p>
+                                Because of the improved UI/UX that solved and organized the massive responses, we have got great user feedback. So far, we didn’t get any error or update request from the users. In the future, we may update it if we find a better solution or get any user update request.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="project-line-breaker"/>
+
+                <!-- Outcome -->
+                <div class="project-content">
+                    <h2>Outcome</h2>
+                    <div class="project-content-detail">
+                        <div class="project-content-detail-each">
+                            <p>
+                                I successfully designed and developed the Gamut Gallery pagination that handled and organized a large number of responses on time.
+                            </p>
+                            <div>
+                                <p><strong>Demo: Implemented Gamut Gallery Pagination</strong></p>
+                                <iframe src="https://www.youtube.com/embed/B01-a6KBUjk" title="Demo: Implemented Gamut Gallery Pagination" class="custom-iframe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p class="project-content-multiple-iframes">
+                                <strong>Note:</strong> You can check a Gamut Gallery pagination at <em>Gallery Tool: Turtle Drawing</em> on the <a href="https://www.coursera.org/learn/python-basics" target="_blank">Python Basics</a> course on Coursera 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="project-line-breaker"/>
+
+                <!-- Takeaway -->
+                <div class="project-content">
+                    <h2>Takeaway</h2>
+                    <div class="project-content-detail">
+                        <div class="project-content-detail-each">
+                            <p>
+                                Since handling a large number of responses was a critical UX issue, I needed to research, design, and develop the pagination rapidly. Although I had to work on it very quickly, I made sure to follow each step with enough consideration so that in the future, the Gamut team wouldn’t have to redesign or update the code again. In addition, practicing Vue.js, SCSS, and HTML in a real project was a big takeaway, and I was able to work on the full software development life cycle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Go to Top -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        </main>
+        <footer>
+            <div>
+                <p>Designed and Coded by Eungyu Park</p>
+                <p>&copy; 2020 Eungyu Park, ALL RIGHTS RESERVED</p>
+            </div>
+            <div class="contact-container">
+                <p id="contact-text">Contact Information</p>
+                <a href="mailto:eungyup@umich.edu?subject=From%20Portfolio%20Website&amp;body=Hi%20Eugyu,%20I%20saw%20your%20portfolio!" class="email-link">eungyup@umich.edu</a>
+                <div id="contact-links-container">
+                    <a href="https://www.linkedin.com/in/eungyu-park/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in fa-lg link-icon"></i></a>
+                    <a href="https://github.com/eungyup" target="_blank" aria-label="GitHub"><i class="fab fa-github fa-lg link-icon"></i></a>
+                    <a href="mailto:eungyup@umich.edu?subject=From%20Portfolio%20Website&amp;body=Hi%20Eugyu,%20I%20saw%20your%20portfolio!" class="email-link"><i class="far fa-envelope fa-lg link-icon"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- JS -->
+        <!-- Scroll JS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            // You can also pass an optional settings object
+            // below listed default settings
+            AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+            });
+        </script>
+        <!-- Bootstrap 5 JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+        <script src="assets/js/bs5/bootstrap.js"></script>
+        <!-- Lightbox JS -->
+        <script src="assets/js/lightbox.js"></script>
+        <!-- Custom JS -->
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
